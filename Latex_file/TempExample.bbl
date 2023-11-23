@@ -1,0 +1,36 @@
+\begin{thebibliography}{5}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax\else
+  \urlstyle{same}\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \DeclareUrlCommand\doi{\urlstyle{rm}}
+  \def\eprint#1#2{#2}
+\else
+  \def\doi#1{\href{https://doi.org/#1}{\nolinkurl{#1}}}
+  \let\eprint\href
+\fi
+
+\bibitem[IDAJ中国电磁小组()]{IDAJ}
+IDAJ中国电磁小组.
+\newblock JMAG用户基础培训2020\allowbreak[Z].
+
+\bibitem[Company()]{JMAG-C2}
+COMPANY J.
+\newblock 【针对全用户群】JMAG-Designer入门讲座2\allowbreak[Z].
+
+\bibitem[Company()]{JMAG-C3}
+COMPANY J.
+\newblock 【针对全用户群】JMAG-Designer入门讲座3\allowbreak[Z].
+
+\bibitem[Qing()]{JMAG-Course}
+QING.
+\newblock Jmag basic training tutorial series\allowbreak[EB/OL].
+\newblock \url{https://www.bilibili.com/video/BV1Zs4y1L7nS?p=7&vd_source=0b9cca431f65b84627b0251721c328db}.
+
+\bibitem[enderfga()]{JMAG}
+ENDERFGA.
+\newblock Motor simulation analysis based on jmag software\allowbreak[EB/OL].
+\newblock \url{https://enderfga.cn/2023/01/13/mach}.
+
+\end{thebibliography}
